@@ -1,0 +1,9 @@
+<h1>{{screenData.title}}</h1>
+
+{{#if quizStatus}}
+    <p>{{screenData.successDescription}}</p>
+{{else}}
+    <p>{{screenData.failDescription}}</p>
+{{/if}}
+
+<button class="js-restart-btn">{{screenData.restartButtonLabel}}</button>

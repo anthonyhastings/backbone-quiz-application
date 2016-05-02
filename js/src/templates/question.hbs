@@ -1,0 +1,7 @@
+<h1>{{questionData.question}}</h1>
+
+<ol>
+    {{#each questionData.answers}}
+        <li><a class="js-answer" data-answer-id="{{id}}" href="#">{{text}}</a></li>
+    {{/each}}
+</ol>

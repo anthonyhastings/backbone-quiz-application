@@ -1,0 +1,12 @@
+.page {
+    transform: translateX(0);
+    transition: transform 500ms;
+
+    &.transition-out {
+        transform: translateX(-100%);
+    }
+
+    &.transition-in {
+        transform: translateX(100%);
+    }
+}
